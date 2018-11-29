@@ -4,3 +4,5 @@ var third=parseInt(prompt("At last a third one"));
 
 if(first === second && second === third && first === third );
    return(equilateral);
+    alert(equilateral);
+    if(first === second &&)
