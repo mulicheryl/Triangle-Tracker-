@@ -10,10 +10,10 @@ function triangleTracker() {
             alert("Isosceles Triangle");
         }
           else if ((first+second)<=third || (first+third)<=second || (second+third)<=first) {
-            alert("THIS IS NOT A Triangle");
-        }
-          else if (first !== second && second !== third() ) {
             alert("Scalene Triangle");
+        }
+          else {
+            alert("THIS IS NOT A Triangle");
         }
 
   function triangleTracker() {
