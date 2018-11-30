@@ -1,10 +1,8 @@
 function triangleTracker(){
 
-
-
-      var first = parseInt(document.getElementById("first").value);
-      var second = parseInt(document.getElementById("second").value);
-      var third = parseInt(document.getElementById("second").value);
+      var first = parseFloat(document.getElementById("first").value);
+      var second = parseFloat(document.getElementById("second").value);
+      var third = parseFloat(document.getElementById("second").value);
           if (first === second && second === third && third === first) {
             alert("Equilateral Triangle");
         }
