@@ -16,4 +16,4 @@ be it an
 
 #### Images
 
-<img src="http://www.assignmentpoint.com/wp-content/uploads/2018/03/Classification-of-triangles-on-the-basis-of-their-sides.jpg"
+<img src="http://www.assignmentpoint.com/wp-content/uploads/2018/03/Classification-of-triangles-on-the-basis-of-their-sides.jpg">
