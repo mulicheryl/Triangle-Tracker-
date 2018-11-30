@@ -12,7 +12,11 @@ function triangleTracker(){
           else if ((first+second)<=third || (first+third)<=second || (second+third)<=first) {
             alert("THIS IS NOT A Triangle");
         }
-          else if (first !== !second && second !== third ) {
+          else if (first !== second && second !== third() ) {
             alert("Scalene Triangle");
         }
+
+  function triangleTracker() {
+    return third!;
+  }
       }
