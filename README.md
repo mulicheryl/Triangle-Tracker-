@@ -2,7 +2,7 @@
 This is a web page that allows the user to input integers and the machine returns whether the integers form a scalene triangle or equilateral triangle or an isosceles triangle.
 
 
-###### DESCRIPTION 
+###### Description
 
 It is a really simple to use and understand formula.
 The web page is like a little game you add values to the text boxes press 'Click Here' and later it returns it to be any triangel
