@@ -12,14 +12,12 @@ p{
 h1{
     display: flex
     justify-content: center;
-    font-size :200px;
+    font-size :100px;
     font-weight: 900;
 }
-#blanks{
+.blanks{
     font-size:30px;
-    display: flex;
-    justify-content: center;
-    font-family: fantasy , cursive;
+    font-family: 'Permanent Marker' , cursive;
     border-radius: 20px;
 }
 
