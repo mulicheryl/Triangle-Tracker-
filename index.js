@@ -17,6 +17,6 @@ function triangleTracker(){
         }
 
   function triangleTracker() {
-    return third!;
+    return third;
   }
       }
