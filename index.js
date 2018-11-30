@@ -1,8 +1,8 @@
-function triangleTracker(){
+function triangleTracker() {
 
       var first = parseFloat(document.getElementById("first").value);
       var second = parseFloat(document.getElementById("second").value);
-      var third = parseFloat(document.getElementById("second").value);
+      var third = parseFloat(document.getElementById("third").value);
           if (first === second && second === third && third === first) {
             alert("Equilateral Triangle");
         }
