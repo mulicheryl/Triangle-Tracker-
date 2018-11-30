@@ -6,6 +6,7 @@
     <title>Triangle-Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 <body >
     <center>
@@ -14,39 +15,25 @@
     </header>
     </center>
      <p>
-        This webpage allows a user to input integers and later the machine responds with whether the integers inputted have a scalene or equilateral or an isosceles value. This is going to be fun.<br><br>
-        <div id="blanks">
-                <form id="triangle-tracker">
-                  <div class="form-group">
-                  <center>
-                    <laindows.alert
-                    Search instead for winows.alert
-                    Window alert() Method
-                    https://www.w3schoobel for="firstvalue">First Value:</label><br><br>
-                  </center>
-                    <input id="first" class="form-control" type="text" height="50px" width="20px">
-                  </div><br><br>
-                  <div class="form-group">
-                  <center>
-                    <label for="secondvalue">Second Value:</label><br><br>
-                  </center>
-                    <input id="second" class="form-control" type="text" height="5px" width="20px">
-                  </div><br><br>
-                  <div class="form-group">
-                  <center>
-                    <label for="thirdvalue">Third Value:</label><br><br>
-                  </center>
-                    <input id="third" class="form-control" type="text" height="5px" width="20px">
-                  </div><br><br>
-                <center>
-                  <button id="btn" type="submit" class="btn">Click Me</button>
-                </center>
-                  
-                </form>
-        </div>
-     
-     </p>
+        This webpage allows a user to input integers and later the machine responds with whether the integers inputted have a scalene or equilateral or an isosceles value.<br><br>
+      <center>
+        <div class="form-group">
 
-<script src="js/index.js"></script>
+            First value:<br>
+            <input type="number" name="firstvalue" id="first"><br><br>
+            Second value:<br>
+            <input type="number" name="secondvalue" id="second"><br><br>
+            Third value:<br>
+            <input type="number" name="thirdvalue" id="third"><br>
+
+            <p id="outputs"></p>
+            </div>
+          <input type="button" value="Click Here" onclick="triangleTracker()">
+      </center>
+
+
+    </p>
+
+<script src="index.js"></script>
 </body>
 </html>
