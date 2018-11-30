@@ -1,17 +1,20 @@
 function triangleTracker(){
+
+
+
       var first = parseInt(document.getElementById("first").value);
       var second = parseInt(document.getElementById("second").value);
       var third = parseInt(document.getElementById("second").value);
           if (first === second && second === third && third === first) {
             alert("Equilateral Triangle");
         }
-          else if (a === b || a === c || b === c ) {
+          else if (first === second || first === third || second === third ) {
             alert("Isosceles Triangle");
         }
-          else if ((a+b)<=c || (a+c)<=b || (b+c)<=a) {
+          else if ((first+second)<=third || (first+third)<=second || (second+third)<=first) {
             alert("THIS IS NOT A Triangle");
         }
-          else if (a !== b && b !== c ) {
+          else if (first !== !second && second !== third ) {
             alert("Scalene Triangle");
         }
       }
